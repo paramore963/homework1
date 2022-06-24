@@ -20,23 +20,23 @@ public class HomeWorkApp {
         System.out.println(result);
 
         if (result >= 0) {
-            System.out.println("Сумма положительная");
+            System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅР°СЏ");
         }
         else {
-            System.out.println("Сумма отрицательная");
+            System.out.println("РЎСѓРјРјР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅР°СЏ");
         }
     }
     static void printColor() {
         int value = 122;
 
         if (value <= 0) {
-            System.out.println("Красный");
+            System.out.println("РљСЂР°СЃРЅС‹Р№");
         }
         else if (value > 0 && value <= 100) {
-            System.out.println("Желтый");
+            System.out.println("Р–РµР»С‚С‹Р№");
         }
         else if (value > 100) {
-            System.out.println("Зеленый");
+            System.out.println("Р—РµР»РµРЅС‹Р№");
         }
     }
     static void compareNumbers() {
