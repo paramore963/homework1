@@ -14,7 +14,7 @@ public class HomeWorkApp {
     }
 
     static void checkSumSign() {
-        int varA = 5;
+        int varA = 7;
         int varB = 4;
         int result = varA + varB;
         System.out.println(result);
